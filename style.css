@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+.padding
+{
+    padding-bottom:3rem;
+}
+
+
+body{
+
+    /* height: 100%; */
+    /* width: 100%; */
+    font-family: 'Crimson Text', serif !important;
+    font-size: 20px;
+}
+
+/* -------------nav-bar here------------- */
+
+.navbar-toggler
+{
+    outline: none !important;
+    font-size: 2.4rem;
+    color:gray;
+}
+
+
+ .imgresize
+{
+    width: 158px;
+}
+.navbar{
+    padding: .8rem;
+
+}
+.navbar-nav li{
+    padding: 20px;
+}
+
+
+.navbar-nav li a{
+    font-size: 1.1em !important;
+}
+
+
+
+/* ------------------carousel slider here---------------- */
+#carousel-slider img{
+    width: 100%;
+    height: 600px;
+    
+}
+.carousel-indicators{
+    display: none;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h3{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px  #000 ;
+
+}
+.carousel-caption h4{
+    font-size: 250%;
+    font-weight: 500 !important;
+    text-shadow: 1px 1px 8px #000;
+    padding-bottom: 1rem;
+}
+
+.btn-primary{
+    background-color: #6648b1;
+    border: 1px solid #6648b1;
+}
+.btn-primary:hover{
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+}
+
+/* ----------jumbotron starts here---------------- */
+
+.jumbotron {
+    padding: 3rem;
+    border-radius: 0px;
+}
+
+
+/*----------------- welcome section starts--------------- */
+.welcome{
+    width: 70%;
+    margin: 0px auto;
+    padding-top: 3rem;
+}
+
+
+.welcome hr{
+    width: 90%;
+    border-top: 2px solid gray;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.welcome h1{
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+/*-------------------- Three column section --------------- */
+
+
+.fa-code{
+color:rgb(216, 24, 24);
+
+}
+.fa-bold{
+color:#563d7c;
+}
+
+.fa-css3{
+color:blue
+}
+
+
+
+.fa-code, .fa-bold, .fa-css3
+{
+    font-size: 3.5rem !important;
+    margin: 1rem;
+    font-weight: 600 !important;
+}
+
+
+
+/*---------------------- two col section---------------- */
+.imgtwocol
+{
+    padding-top: 1rem;
+    width: 96%;
+    height: 80%;
+}
+
+.twopadding{
+    padding-left:30px ;
+}
+
+
+
+/*----------- connect section ---------------*/
+.social a{
+    font-size: 4rem;
+    padding:1rem;
+}
+
+.social .fa-facebook-square{
+    color:#3b5998;
+}
+
+.social .fa-twitter{
+    color:#00acee;
+}
+.social .fa-google-plus{
+    color:#db4a39;
+}
+.social .fa-instagram{
+    color:#3f729b;
+}
+
+.social .fa-youtube-play{
+    color:#c4302b;
+}
+
+.social .fa-facebook-square,
+.social .fa-twitter,
+.social .fa-google-plus,
+.social .fa-instagram,
+.social .fa-youtube-play{
+
+    transition: 0.5s;
+}
+
+.social .fa-facebook-square:hover,
+.social .fa-twitter:hover,
+.social .fa-google-plus:hover,
+.social .fa-instagram:hover,
+.social .fa-youtube-play:hover{
+    
+    transform: translateY(-15px);
+}
+
+/*-------------- footer section ------------*/
+footer{
+
+    padding-top: 2rem;
+    background-color: rgb(54, 45, 45);
+    color:rgb(184, 181, 181);
+}
+hr.light{
+    width: 70%;
+    border-top: 1px solid rgb(184, 181, 181);
+    margin-top: 1rem;
+    margin-bottom: 1.6rme;
+}
+footer .lightfooter{
+    border-top: 1px solid rgb(184, 181, 181);
+    width: 100%;
+
+}
